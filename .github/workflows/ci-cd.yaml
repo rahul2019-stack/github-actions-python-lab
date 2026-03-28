@@ -3,7 +3,7 @@ name: CI/CD pipeline with python
 on:
   push:
     branches:
-      -master
+      - master
 
 jobs:
   CI:
