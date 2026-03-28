@@ -10,6 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Run command
-        run: echo "Hello world"
-        run: ls
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name : List files
+        run: ls -la       
+          
+
