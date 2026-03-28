@@ -1,0 +1,15 @@
+name: CI/CD pipeline with python
+
+on:
+  push:
+    branches:
+      -master
+
+jobs:
+  CI:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run command
+        run: echo "Hello world"
+        run: ls
